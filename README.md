@@ -70,15 +70,16 @@ All repeated “load” logic wrapped in utility functions: load_google_sheet(),
 - Linux / macOS (cron)
 
 `# Run daily at 03:00 AM
+
 0 3 * * * /usr/bin/python3 /path/to/HR-Analytics-ETL/hr_analytics_etl.py >> /path/to/logs/etl.log 2>&1`
 
 - Windows (Task Scheduler)
-  - Open Task Scheduler → Create Basic Task…
-  - Trigger: Daily at chosen time
-  - Action: Start a program
-    - Program: C:\Python39\python.exe
-    - Arguments: C:\path\to\HR-Analytics-ETL\hr_analytics_etl.py
-    - Start in: C:\path\to\HR-Analytics-ETL
+ - Open Task Scheduler → Create Basic Task…
+ - Trigger: Daily at chosen time
+ - Action: Start a program
+  - Program: C:\Python39\python.exe
+  - Arguments: C:\path\to\HR-Analytics-ETL\hr_analytics_etl.py
+  - Start in: C:\path\to\HR-Analytics-ETL
 
 ## 📂 Repository Structure
 HR-Analytics-ETL/
