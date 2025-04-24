@@ -44,8 +44,8 @@ This will:
 
 ## 🔍 ETL Steps & Design Decisions
 - Google Sheet → Demographics:
- - Fill missing gender with "Unknown"
- - Cast city, gender to category
+  - Fill missing gender with "Unknown"
+  - Cast city, gender to category
 
 - Excel → Education:
  - Impute missing major_discipline as "Unknown"
