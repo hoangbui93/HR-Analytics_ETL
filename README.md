@@ -76,9 +76,9 @@ All repeated “load” logic wrapped in utility functions: load_google_sheet(),
   - Open Task Scheduler → Create Basic Task…
   - Trigger: Daily at chosen time
   - Action: Start a program
-   - Program: C:\Python39\python.exe
-   - Arguments: C:\path\to\HR-Analytics-ETL\hr_analytics_etl.py
-   - Start in: C:\path\to\HR-Analytics-ETL
+    - Program: C:\Python39\python.exe
+    - Arguments: C:\path\to\HR-Analytics-ETL\hr_analytics_etl.py
+    - Start in: C:\path\to\HR-Analytics-ETL
 
 ## 📂 Repository Structure
 HR-Analytics-ETL/
