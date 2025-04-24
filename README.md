@@ -80,18 +80,4 @@ All repeated “load” logic wrapped in utility functions: load_google_sheet(),
     - Arguments: C:\path\to\HR-Analytics-ETL\hr_analytics_etl.py
     - Start in: C:\path\to\HR-Analytics-ETL
 
-## 📂 Repository Structure
-HR-Analytics-ETL/
-├── README.md
-└── hr_analytics_etl.py
-
-HR-Analytics-ETL/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── etl_refactored.py      # Refactored, modular ETL script
-├── etl.py                 # Initial ETL script
-├── HR_Analytics_Job_Change_of_Data_Scientists.ipynb
-└── HR_DataWarehouse.db    # Generated SQLite warehouse
-
 
