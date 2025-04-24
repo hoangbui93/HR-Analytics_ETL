@@ -48,20 +48,20 @@ This will:
   - Cast city, gender to category
 
 - Excel → Education:
- - Impute missing major_discipline as "Unknown"
- - Impute education_level and enrolled_university with mode
+  - Impute missing major_discipline as "Unknown"
+  - Impute education_level and enrolled_university with mode
 
 - CSV → Work Experience:
- - Standardize experience and last_new_job using mode
- - Fill missing company_size/company_type with "Unknown"
+  - Standardize experience and last_new_job using mode
+  - Fill missing company_size/company_type with "Unknown"
 
 - MySQL → Training & Employment:
- - Pull full tables via SQLAlchemy
- - No further cleaning required
+  - Pull full tables via SQLAlchemy
+  - No further cleaning required
 
 - HTML → City Development Index:
- - Read first table via pandas.read_html()
- - Keep columns city, city_development_index
+  - Read first table via pandas.read_html()
+  - Keep columns city, city_development_index
 
 - Refactoring:
 All repeated “load” logic wrapped in utility functions: load_google_sheet(), load_excel(), load_csv(), load_html_table(), load_mysql_table(), save_to_sqlite()
