@@ -53,7 +53,7 @@ This will:
 
 - CSV → Work Experience:
   - Standardize experience and last_new_job using mode
-  - Fill missing company_size/company_type with "Unknown"
+  - Fill missing company_size and company_type with "Unknown"
 
 - MySQL → Training & Employment:
   - Pull full tables via SQLAlchemy
